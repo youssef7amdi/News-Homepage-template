@@ -6,7 +6,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-weight: 400;
-  padding: 50px 250px;
 }
 p {
   line-height: 1.7;
@@ -17,6 +16,7 @@ p {
   height: 1vh;
   display: grid;
   grid-template-rows: 10px auto 100px;
+  margin: 40px auto;
   grid-row-gap: 20px;
   background-color: hsl(36, 100%, 99%);
 }
@@ -48,7 +48,7 @@ header ul li a:hover {
 .content {
   grid-area: 2 / 1 / span 1 / span 1;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   justify-content: space-between;
   margin-top: 30px;
@@ -64,7 +64,7 @@ section div img {
   margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 .content section h2 {
   grid-area: 1/ 1/ /span 1 /span 1;
@@ -99,7 +99,7 @@ section div img {
   background-color:hsl(240, 100%, 5%);
   display: flex;
   flex-direction: column;
-  padding: 0px 33px 0 27px;
+  padding: 0px 40px 0 27px;
   justify-content: space-evenly;
 }
 .content aside h2 {
@@ -127,7 +127,7 @@ section div img {
   width: 1040px;
   grid-area: 3 / 1 / span 1 / span 1;
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   grid-gap: 40px;
   margin-top: 30px;
@@ -138,8 +138,7 @@ section div img {
 }
 .two {
   grid-area: 1/ 2/ span 1/ span 1;
-  margin-left: -25px;
-  padding-right: 30px;
+  padding-right: 40px;
 
 }
 .three {
