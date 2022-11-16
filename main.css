@@ -84,7 +84,10 @@ a {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 5px;
+<<<<<<< HEAD
   margin-top: 40px;
+=======
+>>>>>>> master
   border: none;
   cursor: pointer;
 }
